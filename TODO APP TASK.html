@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP TASK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="CSS TODO APP TASK.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="app">
+            <h1 class="app-title">CRUSH YOUR GOALS</h1>
+            
+            <ul class="todo-list js-todo-list"></ul>
+
+            <form class="js-form">
+                <input autofocus type="text" aria-label="Enter a new todo item" placeholder="Add Goal"
+                    class="js-todo-input">
+            </form>
+        </div>
+    </div>
+
+
+    <input type="checkbox" onclick="taskComplete(this)" class="check">
+    <i class="fa fa-trash" onclick="removeTask(this)"></i>
+
+
+    <script src="JS TODO APP TASK.js"></script>
+
+</body>
+
+</html>
