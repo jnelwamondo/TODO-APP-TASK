@@ -11,11 +11,12 @@ body {
 }
 
 .container {
-  display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    background-color: #e1e3ea;
+    padding-top: 50px; 
+    background-image: linear-gradient(120deg, #5f57d1, #c065c0);
+    background-repeat: no-repeat;
     height: 100vh;
     font-family: sans-serif;
   }
@@ -41,7 +42,7 @@ body {
     padding: 10px 0;
     text-align: center;
     border-radius: .5rem .5rem 0 0;
-    background-color: #de3f53;
+    background-color:#b827b8 ;
     font-family: "Rajdhani", sans-serif;}
 
 
@@ -60,6 +61,11 @@ body {
   justify-content: space-between;
 }
 
+.todo-item:hover{
+  background-color:#5f57d179 ;
+}
+
+
 .todo-item span {
   flex-grow: 1;
   margin-left: 10px;
@@ -68,6 +74,7 @@ body {
 }
 
 .done span {
+  background: rgb(177, 176, 176);
   text-decoration: line-through;
 }
 
